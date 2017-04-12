@@ -5,14 +5,22 @@
 }
 
 .bg-blue {
-  background: blue;
+  background: #379699;
 }
 .bg-grey {
-  background: grey;
+  background: #EFF0F4;
 }
 
-.html {
-  color: grey;
+.bg-white {
+  background: white;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
 }
 
 .font-white {
@@ -20,27 +28,46 @@
 }
 
 .font-blue {
-  color: blue;
+  color: #379699;
 }
 
 .padding-sm {
   padding: 10px;
 }
 
-.margin-top-sm {
-  margin-top: 10px;
+.padding-aside {
+  padding: 10px 30px;
 }
 
-.margin-bottom-sm {
+.margin-sides-sm {
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
+
 hr {
-  padding: 10px;
+  padding: 1px;
   background: #bbb;
 }
 
 .aside-img {
   width: 100%;
   max-width: 300px;
+}
+
+.flex-size {
+  flex-grow: 1;
+}
+
+.width-for-aside {
+  width: 23%;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.justify-content {
+  justify-content: space-around;
 }
