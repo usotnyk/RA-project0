@@ -1,0 +1,40 @@
+body {
+ font-size: 18px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ line-height: 1.7em;
+ background: url('background2.jpg');
+ background-size: contain;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+ font-weight: bold;
+}
+
+header {
+  text-align: center;
+}
+
+#tophr {
+  margin-top: 70px;
+}
+
+#bottomhr {
+  margin-bottom: 70px;
+}
+
+section {
+  margin-top: 70px;
+}
+
+section h3 {
+  margin-top: 40px;
+}
+
+section p {
+  font-style: italic;
+}
