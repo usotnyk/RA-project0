@@ -1,9 +1,22 @@
+/* general rules */
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Muli', sans-serif;
+}
 
+/* flex rules */
 .flex {
   display: flex;
 }
 
+.flex-size {
+  flex-grow: 1;
+}
+
+/* background color */
 .bg-blue {
   background: #379699;
 }
@@ -15,14 +28,7 @@
   background: white;
 }
 
-html {
-  font-family: 'Roboto', sans-serif;
-}
-
-h2 {
-  font-family: 'Muli', sans-serif;
-}
-
+/*font rules */
 .font-white {
   color: white;
 }
@@ -31,6 +37,11 @@ h2 {
   color: #379699;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* spacing rules */
 .padding-sm {
   padding: 10px;
 }
@@ -40,43 +51,29 @@ h2 {
 }
 
 .margin-sides-sm {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-
-hr {
-  padding: 1px;
-  background: #bbb;
-}
-
-.aside-img {
-  width: 100%;
-  max-width: 300px;
-}
-
-.flex-size {
-  flex-grow: 1;
+  margin: 0 10px 10px 10px;
 }
 
 .width-for-aside {
   width: 23%;
 }
 
-.max-width {
-  max-width: 100%;
-}
-
 .justify-content {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
+hr {
+  padding: 1px;
+  background: #bbb;
+}
+
+/* Profile image rules */
 .profile {
   background-image: url('userimg.jpeg');
 }
 
-.position-bottom-right {
-  flex-direction: column-reverse;
+.position-bottom {
   min-height: 200px;
+  justify-content: center;
+  align-items: flex-end;
 }
