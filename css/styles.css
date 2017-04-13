@@ -71,3 +71,12 @@ hr {
 .justify-content {
   justify-content: space-around;
 }
+
+.profile {
+  background-image: url('userimg.jpeg');
+}
+
+.position-bottom-right {
+  flex-direction: column-reverse;
+  min-height: 200px;
+}
